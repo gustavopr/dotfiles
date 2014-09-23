@@ -7,7 +7,7 @@ iwconfig wlan0 2>&1 | grep -q no\ wireless\ extensions\. && {
 
 essid=`iwconfig wlan0 | awk -F '"' '/ESSID/ {print $2}'`
 stngth=`iwconfig wlan0 | awk -F '=' '/Quality/ {print $2}' | cut -d '/' -f 1`
-bars=`echo $stngth | python -c "print(round( (float(input())*10)/70))"`
+bars=`echo $stngth | python -c "print(int(round((float(input())*10)/70)))"`
 
 
 case $bars in
