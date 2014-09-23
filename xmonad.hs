@@ -55,7 +55,7 @@ main = do
         }
 	`additionalKeysP`
         [ 
-	 ("M-p", spawn "dmenu_run -fn -*-profont-*-*-*-*-12-*-*-*-*-*-*-* -nb black -nf rgb:ff/ff/ff -sb rgb:00/a0/a0 -sf black")
+	 ("M-p", spawn "dmenu_run -fn -*-profont-*-*-*-*-12-*-*-*-*-*-*-* -nb black -nf rgb:ff/ff/ff -sb rgb:87/ce/fa -sf black")
 	]
 
 
