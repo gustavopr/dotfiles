@@ -1,7 +1,7 @@
 Config { font = "-*-profont-*-*-*-*-12-*-*-*-*-*-*-*"
        , bgColor = "black"
        , fgColor = "#FFFFFF"
-       , position = Static { xpos = 0 , ypos = 0, width = 2560	, height = 15 }
+       , position = Static { xpos = 0 , ypos = 0, width = 1925	, height = 15 }
        , lowerOnStart = True
        , commands = [ Run Cpu ["-L","3","-H","50","--normal","green","--high","red"] 10
 		    , Run Com "/home/gustavo/.bin/wireless.sh" [] "wifi" 30
